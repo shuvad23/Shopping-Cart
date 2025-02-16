@@ -1,9 +1,8 @@
 import products from '/products.js';
 import cart from './cart.js';
 
-
-document.addEventListener('DOMContentLoaded', () => {
 let listProduct = document.getElementById('listProduct');
+document.addEventListener('DOMContentLoaded', () => {
 let app = document.getElementById('app');
 let temporaryContent = document.getElementById('temporaryContent');
 
