@@ -24,7 +24,7 @@ const initApp = () => {
     let productId = new URLSearchParams(window.location.search).get('id');
     let thisProduct = products.filter(value => value.id == productId)[0];
     if(!thisProduct){
-        window.location.href = "/";
+        window.location.href = "./";
     }
 
     let detail = document.querySelector('.detail');
