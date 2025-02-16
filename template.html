@@ -23,15 +23,54 @@
         </div>
     </div>
 
-    <div class="cartTab">
+    <!-- <div class="cartTab">
         <h1>Shopping Cart</h1>
+
         <div class="listCart">
         </div>
+
+        <div class="promo-code-section">
+            <input type="text" id="promoCodeInput" placeholder="Enter promo code">
+            <button id="applyPromoCodeButton">Apply</button>
+            <p id="promoCodeMessage"></p>
+        </div>
+        <div class="summary">
+            <p>Subtotal: $<span id="subtotalAmount">0.00</span></p>
+            <p>Discount: $<span id="discountAmount">0.00</span></p>
+            <p>Total: $<span id="totalAmount">0.00</span></p>
+        </div>
+        
+
         <div class="btn">
             <button class="close">CLOSE</button>
-            <button class="checkOut">Check Out</button>
+            <button class>Check Out</button>
+        </div>
+    </div> -->
+
+    <div class="cartTab">
+        <h1>Shopping Cart</h1>
+        <div class="listCart"></div>
+    
+        <!-- Promo Code Section -->
+        <div class="promo-code-section">
+            <input type="text" id="promoCodeInput" placeholder="Enter promo code">
+            <button id="applyPromoCodeButton">Apply</button>
+            <p id="promoCodeMessage"></p>
+        </div>
+    
+        <!-- Summary Section -->
+        <div class="summary">
+            <p>Subtotal: $<span id="subtotalAmount">0.00</span></p>
+            <p>Discount: $<span id="discountAmount">0.00</span></p>
+            <p>Total: $<span id="totalAmount">0.00</span></p>
+        </div>
+    
+        <div class="btn">
+            <button class="close">CLOSE</button>
+            <button class="checkout">Check Out</button>
         </div>
     </div>
+
     <script src="cart.js" type="module"></script>
 </body>
 </html>
