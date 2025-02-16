@@ -1,6 +1,9 @@
 import products from './products.js';
 import cart from './cart.js';
 
+
+
+document.addEventListener('DOMContentLoaded', () => {
 let app = document.getElementById('app');
 let temporaryContent = document.getElementById('temporaryContent');
 
@@ -18,6 +21,7 @@ const loadTemplate = () => {
     })
 }
 loadTemplate();
+});
 const initApp = () => {
      // load list product
      let listProductHTML = document.querySelector('.listProduct');
