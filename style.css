@@ -65,9 +65,66 @@ header{
     margin: 0;
     font-weight: 300;
 }
+
+/* Promo Code Section */
+.promo-code-section input {
+    padding: 10px;
+    font-size: 14px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.promo-code-section button {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.promo-code-section button:hover {
+    background-color: #218838;
+}
+
+.promo-code-section p {
+    font: 1em sans-serif;
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: red;
+}
+
+/* Summary Section */
+.summary {
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 15px;
+    border: 1px solid #361818;
+    border-radius: 4px;
+    background-color: #421919;
+}
+
+.summary p {
+    margin: 10px 0;
+    display: flex;
+    padding-right: 80px;
+    justify-content: space-between;
+}
+
+.summary p span {
+    font-weight: bold;
+}
+
+
+/* cart botton section */
 .cartTab .btn{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    
 }
 .cartTab button{
     background-color: #E8BC0E;
@@ -77,7 +134,9 @@ header{
     cursor: pointer;
 }
 .cartTab .close{
-    background-color: #eee;
+    background-color: #fbfdff;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .listCart{
     overflow: auto;
@@ -159,10 +218,11 @@ body.activeTabCart .container{
 .listCart .item:nth-child(even){
     background-color: #eee1;
 }
-/*  */
+
+
+
 
 /* detail page */
-
 .detail{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -236,43 +296,6 @@ body.activeTabCart .container{
 .detail .description{
     font-weight: 300;
 }
-
-
-
-.promo-code-section {
-    margin-top: 20px;
-}
-
-.promo-code-section input {
-    padding: 10px;
-    font-size: 14px;
-    width: 200px;
-    margin-right: 10px;
-}
-
-.promo-code-section button {
-    padding: 10px;
-    font-size: 14px;
-    cursor: pointer;
-}
-
-.promo-code-section p {
-    margin-top: 10px;
-    font-size: 14px;
-    color: red;
-}
-
-.summary {
-    margin-top: 20px;
-    font-size: 16px;
-}
-
-.summary p {
-    margin: 5px 0;
-}
-
-
-
 
 
 /*  */
