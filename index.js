@@ -12,7 +12,7 @@ const loadTemplate = () => {
         app.innerHTML = html;
         let contentTab = document.getElementById('contentTab');
         contentTab.innerHTML = temporaryContent.innerHTML;
-        temporaryContent.innerHTML = null;
+        temporaryContent.innerHTML = '';
         cart();
         initApp();
     })
